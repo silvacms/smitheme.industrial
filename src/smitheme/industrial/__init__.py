@@ -9,7 +9,7 @@ silvaconf.extension_title("SMI Theme Industrial")
 silvaconf.extension_depends(["Silva"])
 
 
-SKIN = 'smitheme.industrial.skin.ISMIBluesSkin'
+SKIN = 'smitheme.industrial.skin.ISMIIndustrialSkin'
 
 
 class Installer(object):

@@ -6,9 +6,9 @@ import os
 
 version = '1.0dev'
 
-setup(name='smitheme.blues',
+setup(name='smitheme.industrial',
       version=version,
-      description="Alternate SMI Skin for Silva 3.0",
+      description="Alternate (original) SMI Skin for Silva 3.0",
       long_description=open("README.txt").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       classifiers=[
@@ -27,5 +27,6 @@ setup(name='smitheme.blues',
       zip_safe=False,
       install_requires=[
           'setuptools',
-      ],
+          'silva.ui',
+          ],
       )
