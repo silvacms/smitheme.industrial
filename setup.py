@@ -4,7 +4,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.0dev'
+version = '3.0c1'
 
 setup(name='smitheme.industrial',
       version=version,
@@ -26,7 +26,14 @@ setup(name='smitheme.industrial',
       include_package_data=True,
       zip_safe=False,
       install_requires=[
+          'five.grok',
+          'js.jqueryui',
+          'megrok.pagetemplate',
           'setuptools',
+          'silva.core.conf',
+          'silva.core.interfaces',
           'silva.ui',
+          'zope.interface',
+          'zope.publisher',
           ],
       )
