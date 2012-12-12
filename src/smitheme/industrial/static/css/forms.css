@@ -71,7 +71,8 @@ ins.icon.form_check {
   border-bottom: 1px dotted #ccc;
 }
 
-.form-content .form-section .form-label label {
+.form-content .form-section .form-label label,
+.form-content .form-section .form-checkbox label {
   font-weight: bold;
   font-size: 105%;
 }
@@ -80,7 +81,8 @@ ins.icon.form_check {
   margin-bottom: 10px;
 }
 
-.form-content .form-section .form-label p {
+.form-content .form-section .form-label p,
+.form-content .form-section .form-label checkbox {
   font-style: italic;
 }
 
